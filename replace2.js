@@ -7,3 +7,4 @@ The most common characters are Alice and Bob. Eve, Mallory, and Trent are also c
 let firstName = 'Henri'
 
 console.log(str.replaceAll('Alice', firstName))
+
