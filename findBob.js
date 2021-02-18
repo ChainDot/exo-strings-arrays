@@ -5,9 +5,15 @@ let str =
   str = str.toLowerCase()
   str = str.trim()
   str = str.split(' ')
-  str = str.find(element => element === 'bob')
+  str = str.find(element => element === 'bobi')
 
-console.log(`Le mot ${str} est bien présent dans la phrase`)
+  if(str){
+    console.log('bob exist')
+  } else {
+    console.log('bob is a no show')
+  }
+
+
 
 
 
