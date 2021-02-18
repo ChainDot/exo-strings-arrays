@@ -1,4 +1,5 @@
 let str =  'Bonjour, je suis Sofiane.'
 const FirstName = 'Henri'
-
-console.log(str.replace('Sofiane', FirstName))
+str = str.replace('Sofiane', FirstName)
+//console.log(str.replace('Sofiane', FirstName))
+console.log(str)
